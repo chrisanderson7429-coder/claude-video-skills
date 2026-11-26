@@ -14,11 +14,9 @@ Mỗi skill gồm `SKILL.md` (hướng dẫn cho Claude) và `template/`, một 
 **Dạng plugin (khuyên dùng).** Trong Claude Code, chạy:
 
 ```
-/plugin marketplace add <owner>/claude-video-skills
+/plugin marketplace add chrisanderson7429-coder/claude-video-skills
 /plugin install claude-video-skills@claude-video-skills
 ```
-
-Thay `<owner>` bằng tên tài khoản GitHub chứa repo này.
 
 **Hoặc chép tay.** Chép thư mục `skills/video-gold-motion` và/hoặc `skills/video-character-explainer` vào `~/.claude/skills/`, hoặc vào `.claude/skills/` của dự án.
 
