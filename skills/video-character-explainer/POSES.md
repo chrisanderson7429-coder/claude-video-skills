@@ -1,5 +1,7 @@
 # Ảnh pose nhân vật
 
+`template/public/poses/` có sẵn bộ 10 pose mẫu (mọi pose trong bảng dưới, trừ `ok`). Muốn dùng nhân vật của bạn thì thay các ảnh này bằng ảnh cùng tên, theo quy cách sau.
+
 ## Quy cách ảnh
 - File **PNG nền trong suốt**, kích thước **1220 × 1150 px**.
 - Mọi ảnh để đầu nhân vật ở cùng vị trí và cùng cỡ (mặc định miệng ở khoảng x=694, y=452). Phần rộng thêm bên phải dành cho bàn tay giơ ra.

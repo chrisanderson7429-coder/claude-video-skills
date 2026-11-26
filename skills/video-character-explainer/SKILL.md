@@ -16,7 +16,7 @@ Video dọc 1080×1920, 30 fps. Nội dung nằm ở nửa trên (thẻ, sơ đ�
 
 ## Nhân vật
 
-- Ảnh pose đặt trong `public/poses/<tên-pose>.png`: PNG nền trong suốt, khung 1220×1150, đầu cùng vị trí giữa các ảnh. Danh sách tên pose và cách làm nằm trong `POSES.md`. Repo **không kèm ảnh**: người dùng tự đưa nhân vật của mình vào.
+- Ảnh pose đặt trong `public/poses/<tên-pose>.png`: PNG nền trong suốt, khung 1220×1150, đầu cùng vị trí giữa các ảnh. Danh sách tên pose và cách làm nằm trong `POSES.md`. Template có sẵn bộ 10 pose mẫu (thiếu `ok`, tự dùng pose gần nghĩa). Muốn dùng nhân vật khác thì thay ảnh cùng tên.
 - Chưa có ảnh nào thì video vẫn chạy, chỉ không có nhân vật. Thiếu một pose thì tự dùng pose gần nghĩa (`FALLBACK` trong `src/data/poses.ts`).
 - Ảnh mới lệch miệng hoặc mắt: mở Studio (`npm run dev`), chọn composition **CanhMieng**, kéo thông số cho dấu thập nằm giữa miệng, rồi chép dòng kết quả vào `OVERRIDES` trong `src/data/poses.ts`.
 - Gán pose theo câu trong `buildPoses()` của `src/Video.tsx`: `{ at: P(đoạn, "cụm từ"), pose: "think" }`. Body language tự chạy theo pose: `warn`/`surprised` rung, `thumbs`/`happy` nảy, `shrug` nhún vai, `point` gật, `think`/`wave` lắc lư.

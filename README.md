@@ -5,7 +5,7 @@ Hai skill cho [Claude Code](https://claude.com/claude-code) để dựng video d
 | Skill | Phong cách |
 |---|---|
 | [`video-gold-motion`](skills/video-gold-motion/SKILL.md) | Motion graphics nền đen, nhấn vàng gold, không có người dẫn. Mỗi đề mục có cảnh tiêu đề "01" lớn, cảnh chuyển liên tục (tối đa 6 giây), chữ bay vào từng từ, sơ đồ tự vẽ, phụ đề theo giọng. |
-| [`video-character-explainer`](skills/video-character-explainer/SKILL.md) | Nền sáng, nhân vật hoạt hình dẫn chuyện ở góc dưới, mấp máy môi theo giọng, đổi tư thế theo câu. Thẻ viền đậm, phụ đề lớn hiện từng từ. Bạn tự đưa ảnh nhân vật của mình vào (xem [POSES.md](skills/video-character-explainer/POSES.md)). |
+| [`video-character-explainer`](skills/video-character-explainer/SKILL.md) | Nền sáng, nhân vật hoạt hình dẫn chuyện ở góc dưới, mấp máy môi theo giọng, đổi tư thế theo câu. Thẻ viền đậm, phụ đề lớn hiện từng từ. Có sẵn bộ 10 pose mẫu; muốn dùng nhân vật của bạn thì thay ảnh theo [POSES.md](skills/video-character-explainer/POSES.md). |
 
 Mỗi skill gồm `SKILL.md` (hướng dẫn cho Claude) và `template/`, một dự án Remotion chạy được ngay, có sẵn video ví dụ.
 
