@@ -1,0 +1,29 @@
+{
+  "name": "gold-motion-video",
+  "version": "1.0.0",
+  "description": "Video motion graphics dọc 9:16 nền đen, nhấn vàng gold (Remotion)",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "typecheck": "tsc",
+    "render": "remotion render"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.546",
+    "@remotion/google-fonts": "4.0.546",
+    "@remotion/install-whisper-cpp": "4.0.546",
+    "@remotion/media": "4.0.546",
+    "@remotion/paths": "4.0.546",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.546"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "typescript": "5.9.3"
+  }
+}

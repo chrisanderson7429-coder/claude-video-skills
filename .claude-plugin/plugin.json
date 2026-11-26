@@ -1,0 +1,7 @@
+{
+  "name": "claude-video-skills",
+  "description": "Hai skill dựng video dọc 9:16 bằng Remotion: motion graphics vàng gold và video giải thích có nhân vật hoạt hình.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": ["remotion", "video", "reels", "motion-graphics", "vietnamese"]
+}

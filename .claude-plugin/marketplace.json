@@ -1,0 +1,12 @@
+{
+  "name": "claude-video-skills",
+  "owner": { "name": "claude-video-skills" },
+  "plugins": [
+    {
+      "name": "claude-video-skills",
+      "source": "./",
+      "description": "Hai skill dựng video dọc 9:16 bằng Remotion: motion graphics vàng gold và video giải thích có nhân vật hoạt hình.",
+      "version": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "character-explainer-video",
+  "version": "1.0.0",
+  "description": "Video giải thích dọc 9:16 có nhân vật hoạt hình mấp máy môi theo giọng (Remotion)",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "dev": "node scripts/scan-poses.mjs && remotion studio",
+    "typecheck": "tsc",
+    "render": "remotion render"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.546",
+    "@remotion/google-fonts": "4.0.546",
+    "@remotion/install-whisper-cpp": "4.0.546",
+    "@remotion/media": "4.0.546",
+    "@remotion/zod-types": "4.0.546",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.546",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "typescript": "5.9.3"
+  }
+}
